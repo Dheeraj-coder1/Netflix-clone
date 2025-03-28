@@ -1,0 +1,315 @@
+
+@media(max-width: 1245px){
+    .page1{
+        height: 750px;
+    }
+    .main #para1{
+        font-size: 43px;
+    }
+    .main #para2{
+        font-size: 23px;
+    }
+    .main #para3{
+        font-size: 18px;
+    }
+    .heading p{
+        font-size: 43px;
+        padding: 0px 20px;
+    }
+    .heading_cont p{
+        padding: 0px 20px;
+        font-size: 22px;
+    }
+    .tv img{
+        max-width: 570px;
+        display: flex;
+        justify-content: center;
+    }
+    .Download img{
+        max-width: 470px;
+        display: flex;
+        justify-content: center;
+    }
+    .laptop img{
+        max-width: 470px;
+        display: flex;
+        justify-content: center;
+    }
+    .mid{
+        width: 85%;
+    }
+    .get_started .para{
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .navbar{
+        gap: 420px;
+    }
+}
+
+
+
+
+@media(max-width: 800px){
+    .navbar{
+        gap: 200px;
+    }    
+    .main{
+        padding: 0px 30px;
+    }
+    .page2{
+        display: flex;
+        flex-direction: column;
+        height: 750px;
+        gap: 0px;
+        text-align: center;
+    }
+    .heading {
+        padding: 60px 0px 30px 0px;
+    }
+    .page3{
+        height: 850px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .page4{
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .page5{
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .para{
+        text-align: center;
+    }
+    .call{
+        text-align: center;
+    }
+    .page7{
+        display: flex;
+        align-items: center;
+    }
+    .mid{
+        width: 90%;
+    }
+    .mid2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .page7 .dropdown{
+        display: none;
+    }
+}
+
+
+
+
+
+@media(max-width: 680px){
+    .navbar{
+        gap: 100px;
+    }
+    .page1{
+        height: 800px;
+    }
+    .main #para1{
+        font-size: 40px;
+    }
+    .main #para2{
+        font-size: 22px;
+    }
+    .main #para3{
+        font-size: 15px;
+    }
+    .mail{
+        display: grid;
+        position: relative;
+        margin-top: 50px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .e-mail label{
+        position: absolute;
+        font-size: 16px;
+        top: 50%;
+        left: 17px;
+        color: white;
+        transform: translateY(-50%);
+        transition: .4s ease;
+        pointer-events: none;
+    }
+    .e-mail input:focus ~ label,
+    .e-mail input:valid label{
+    top: 11px;
+    font-size: 10px;
+    }
+    .mail button{
+        width: 355px;
+        margin: -5px 0px 0px 0px;
+    }
+    .heading p{
+        font-size: 40px;
+    }
+    .heading_cont p{
+        font-size: 20px;
+    }
+    .tv img{
+        max-width: 470px;
+        display: flex;
+        justify-content: center;
+    }
+    .Download img{
+        max-width: 470px;
+        display: flex;
+        justify-content: center;
+    }
+    .laptop img{
+        max-width: 470px;
+        display: flex;
+        justify-content: center;
+    }
+    .get_started .para{
+        padding: 0px 20px;
+    }
+}
+
+
+@media(max-width: 470px){
+    .navbar{
+        gap: 05px;
+    }
+    .logo img{
+        width: 130px;
+    }
+    .main{
+        padding: 0px 10px;
+    }
+    .page1{
+        height: 750px;
+    }
+    .center{
+        margin-top: 35px;
+    }
+    .main #para1{
+        font-size: 34px;
+        font-weight: 800;
+    }
+    .main #para2{
+        font-size: 22px;
+    }
+    .main #para3{
+        font-size: 15px;
+    }
+    .page2{
+        height: 500px;
+    }
+    .page3{
+        height: 590px;
+    }
+    .page4{
+        height: 550px;
+    }
+    .page5{
+        height: 600px;
+    }
+    .para p{
+        font-size: 20px;
+    }
+
+    .e-mail input:focus ~ label,
+    .e-mail input:valid label{
+    top: 12px;
+    font-size: 10px;
+    }
+    .mail button{
+        width: 355px;
+        margin: -5px 0px 0px 0px;
+    }
+    .heading p{
+        font-size: 35px;
+    }
+    .heading_cont p{
+        font-size: 16px;
+    }
+    .tv img{
+        max-width: 370px;
+        display: flex;
+        justify-content: center;
+    }
+    .Download img{
+        max-width: 370px;
+        display: flex;
+        justify-content: center;
+    }
+    .laptop img{
+        max-width: 370px;
+        display: flex;
+        justify-content: center;
+    }
+    .mid{
+        width: 90%;
+    }
+    .head p{
+        font-size: 35px;
+        padding: 0px 10px;
+    }
+    .get_started .para{
+        padding: 0px 100px;
+    }
+
+    .paragraph p{
+        font-size: 20px;
+    }
+    .paragraph2 p{
+        font-size: 20px;
+    }
+    .paragraph3 p{
+        font-size: 20px;
+    }
+    .paragraph4 p{
+        font-size: 20px;
+    }
+    .paragraph5 p{
+        font-size: 20px;
+    }
+    .paragraph6 p{
+        font-size: 20px;
+    }
+
+    .ans1 p{
+        font-size: 20px;
+    }
+    .ans2 p{
+        font-size: 20px;
+    }
+    .ans3 p{
+        font-size: 20px;
+    }
+    .ans4 p{
+        font-size: 20px;
+    }
+    .ans5 p{
+        font-size: 20px;
+    }
+    .ans6 p{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.page1{
+    width: 100%;
+    height: 775px;
+    background: radial-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.75)),url(https://assets.nflxext.com/ffe/siteui/vlv3/dd4dfce3-1a39-4b1a-8e19-b7242da17e68/86742114-c001-4800-a127-c9c89ca7bbe4/IN-en-20240527-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    margin-left: 170px;
+    width: 155px;
+}
+
+.center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.sign_in{
+    width: 370px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.607);
+    display: flex;
+    justify-content: center;
+    padding: 50px 40px;
+}
+
+.main{
+    width: 317px;
+    height: auto;
+    /* overflow: hidden;     */
+}
+
+.head p{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.mail form{
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+}
+
+form .e-mail{
+    position: relative;
+    margin: 20px 0px;
+}
+
+.e-mail input{
+    width: 285px;
+    height: 55px;
+    font-size: 16px;
+    padding: 0px 15px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid gray;
+}
+
+.e-mail label{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+    font-size: 15px;
+    transition: .4s ease;
+    pointer-events: none;
+    color: rgb(189, 185, 185);
+}
+
+
+.e-mail input:focus ~ label,
+.e-mail input:valid ~ label{
+    top: 10px;
+    font-size: 12px;
+}
+
+
+input[type= "submit"]{
+    width: 100%;
+    height: 38px;
+    background-color: rgb(221, 24, 24);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all .3s ease;
+}
+
+input[type= "submit"]:hover{
+    background-color: rgb(181, 35, 35);
+}
+
+.additional p{
+    margin: 15px 0px;
+}
+
+.button2 button{
+    width: 100%;
+    height: 38px;
+    background-color: rgba(117, 114, 114, 0.553);
+    border-radius: 4px;
+    border: none;
+    transition: all .3s ease;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.button2 button:hover{
+    background-color: rgba(90, 87, 87, 0.553);
+}
+
+.forgot{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+input[type= "checkbox"]{
+    width: 20px;
+    accent-color: gray;
+    color: black;
+    font-size: 2px;
+    border: 1px solid black;
+    
+}
+
+
+.checkbox{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.sign_up{
+    margin: 20px 0px;
+}
+
+.sign_up p{ 
+    color: rgb(189, 187, 187);
+    font-size: 16px;
+    display: inline;
+}
+
+.sign_up a{
+    margin-left: 3px;
+    text-decoration-line: none;
+}
+
+.sign_up a:hover{
+    text-decoration-line: underline;
+    text-decoration-line: 4px;
+    display: inline;
+}
+
+.learn_more p{
+    font-size: 13px;
+    color: gray;
+}
+
+.learn_more a{
+    text-decoration-line: none;
+    color: blue;
+}
+
+.learn_more a:hover{
+    text-decoration-line: underline;
+}
+
+
+
+.footer{
+    width: 100%;
+    min-height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 80px 0;
+    border-bottom: 8px solid rgb(57, 56, 56);
+}
+
+
+.mid{
+    width: 75%;
+    height: auto;
+    padding: 80px 0px 0px 30px;
+}
+
+.call p{
+    color: rgb(194, 186, 186);
+    
+}
+
+.call p a{
+    color: rgb(194, 186, 186);
+    margin-bottom: 0.5rem;
+    font-size: 15px;
+}
+
+.link a{
+    color: rgb(194, 186, 186);
+    margin-bottom: 0.5rem;
+    font-size: 15px;
+}
+
+.link{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    gap: 150px;
+}
+
+.section1{
+    display: grid;
+    gap: 8px;
+}
+
+.section2{
+    display: grid;
+    gap: 8px;
+}
+
+.section3{
+    display: grid;
+    gap: 8px;
+}
+
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+#language{
+    width: 90px;
+    padding: 5px 8px 5px 8px;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid rgb(163, 149, 149);
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+i{
+    transition: all .3s ease;
+}
+
+.dropdown:hover i{
+    rotate: 180deg;
+}
+
+
+
+
+
+.dropdown .drop-cont{
+    display: none;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown:hover .drop-cont{
+    width: 90px;
+    height: 50px;
+    display: grid;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+}
+
+.drop-cont:hover a{
+    width: 90px;
+    height: 25px;
+    display: grid;
+    align-items: center;
+}
+
+.drop-cont a{
+    font-size: 14px;
+    color: black;
+}
+
+.drop-cont a:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+}
+
+
+.footer .dropdown{
+    width: 90px;
+    margin-top: 20px;
+}
